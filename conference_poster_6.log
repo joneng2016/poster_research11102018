@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.9.4)  11 OCT 2018 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.9.4)  11 OCT 2018 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,7 +591,11 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(./conference_poster_6.aux)
+(./conference_poster_6.aux
+
+LaTeX Warning: Label `sanction' multiply defined.
+
+)
 \openout1 = `conference_poster_6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -607,8 +611,7 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 41.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -695,15 +698,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <74.3> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 56.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
 
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 
 ! Package xcolor Error: Undefined color `'.
 
@@ -711,67 +714,52 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \color{}
+l.107 \color{}
                % DarkSlateGray color for the rest of the content
 ? 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
-
-LaTeX Warning: Reference `figUmModelSimulation' on page 1 undefined on input li
-ne 168.
-
 <uml_model_simulation.png, id=1, 2038.61626pt x 1716.4125pt>
 File: uml_model_simulation.png Graphic file (type png)
 
 <use uml_model_simulation.png>
-Package pdftex.def Info: uml_model_simulation.png used on input line 176.
+Package pdftex.def Info: uml_model_simulation.png used on input line 172.
 (pdftex.def)             Requested size: 1002.183pt x 843.79948pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 185.
+LaTeX Font Info:    Try loading font information for U+msa on input line 181.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 185.
+LaTeX Font Info:    Try loading font information for U+msb on input line 181.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (51.83209pt too wide) detected at line 202
-\OML/cmm/m/it/24.88 longConsequence\OT1/cmr/m/n/24.88 (\OML/cmm/m/it/24.88 goal
-\OT1/cmr/m/n/24.88 ) \OMS/cmsy/m/n/24.88 ^ \OML/cmm/m/it/24.88 hasProbability\O
-T1/cmr/m/n/24.88 (\OML/cmm/m/it/24.88 goal; probability\OT1/cmr/m/n/24.88 ) \OM
-S/cmsy/m/n/24.88 ! \OML/cmm/m/it/24.88 hasProbability\OT1/cmr/m/n/24.88 (\OML/c
-mm/m/it/24.88 goal; newProbability\OT1/cmr/m/n/24.88 )
- []
-
 (./conference_poster_6.bbl) [1
 
 
 Non-PDF special ignored!{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/
 pdftex.map} <./uml_model_simulation.png>] (./conference_poster_6.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4889 strings out of 494941
- 70692 string characters out of 6180919
- 190737 words of memory out of 5000000
- 8093 multiletter control sequences out of 15000+600000
- 24375 words of font info for 54 fonts, out of 8000000 for 9000
+ 4851 strings out of 494941
+ 70133 string characters out of 6180919
+ 213010 words of memory out of 5000000
+ 8061 multiletter control sequences out of 15000+600000
+ 22234 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,5n,39p,294b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,39p,407b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster_6.pdf (1 page, 189169 bytes).
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_poster_6.pdf (1 page, 182283 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
