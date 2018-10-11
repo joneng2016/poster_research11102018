@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{HowDoAgentMakeDecision}
+Tina Balke and Nigel Gilbert.
+\newblock How do agents make decisions? a survey.
+\newblock {\em Journal of Artificial Societies and Social Simulation}, 17(4),
+  2014.
+
+\bibitem{SimulationNonNormative}
+Stephan Chang and Felipe Meneguzzi.
+\newblock Simulating normative behaviour in multi-agent environments using
+  monitoring artefacts.
+\newblock In {\em COIN@AAMAS/IJCAI}, volume 9628 of {\em Lecture Notes in
+  Computer Science}, pages 59--77. Springer, 2015.
+
+\bibitem{ControllingNonNormative}
+Arnaud Doniec, Ren{\'{e}} Mandiau, Sylvain Piechowiak, and St{\'{e}}phane
+  Espi{\'{e}}.
+\newblock Controlling non-normative behaviors by anticipation for autonomous
+  agents.
+\newblock {\em Web Intelligence and Agent Systems}, 6(1):29--42, 2008.
+
+\bibitem{AutonomousAgent}
+Jomi~F. H{\"u}bner, Olivier Boissier, Rosine Kitio, and Alessandro Ricci.
+\newblock Instrumenting multi-agent organisations with organisational artifacts
+  and agents.
+\newblock {\em Autonomous Agents and Multi-Agent Systems}, 20(3):369--400, May
+  2010.
+
+\end{thebibliography}
