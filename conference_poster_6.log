@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2018.10.15)  17 OCT 2018 18:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2018.10.15)  17 OCT 2018 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,20 +643,20 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4769 strings out of 493304
- 69511 string characters out of 6139870
- 186470 words of memory out of 5000000
- 8136 multiletter control sequences out of 15000+600000
+ 4767 strings out of 493304
+ 69463 string characters out of 6139870
+ 179464 words of memory out of 5000000
+ 8134 multiletter control sequences out of 15000+600000
  20608 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,38p,290b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,38p,290b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster_6.pdf (1 page, 222626 bytes).
+Output written on conference_poster_6.pdf (1 page, 219571 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

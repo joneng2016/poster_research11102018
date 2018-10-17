@@ -1,18 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{HowDoAgentMakeDecision}
-Tina Balke and Nigel Gilbert.
-\newblock How do agents make decisions? a survey.
-\newblock {\em Journal of Artificial Societies and Social Simulation}, 17(4),
-  2014.
-
-\bibitem{SimulationNonNormative}
-Stephan Chang and Felipe Meneguzzi.
-\newblock Simulating normative behaviour in multi-agent environments using
-  monitoring artefacts.
-\newblock In {\em COIN@AAMAS/IJCAI}, volume 9628 of {\em Lecture Notes in
-  Computer Science}, pages 59--77. Springer, 2015.
-
 \bibitem{ControllingNonNormative}
 Arnaud Doniec, Ren{\'{e}} Mandiau, Sylvain Piechowiak, and St{\'{e}}phane
   Espi{\'{e}}.
