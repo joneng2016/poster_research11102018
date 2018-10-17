@@ -50,22 +50,31 @@
 % The widths of these boxes can be easily edited to accommodate your content as you see fit
 
 \begin{minipage}[b]{0.75\linewidth}
-\veryHuge \color{NavyBlue} \textbf{Proposta de um Modelo para Comportamentos Não-Normativos } \color{Black}\\ % Title
-\huge \textbf{Jonathan Morris Samara, Cesar Augusto Tacla}\\[0.5cm] % Author(s)
-\huge Institutos Lactec, Copel,UFPR,UTFPR - Projeto RV2\\[0.4cm] % University/organization 
+\veryHuge \color{NavyBlue} \textbf{Proposta de um Modelo para Comportamentos Não-Normativos} \color{Black}\\ % Title
+\huge Ontologia e Sistemas MultiAgentes\\[0.4cm] % University/organization 
 \end{minipage}
+
+\begin{center}
+	\includegraphics[width=0.1\linewidth]{logoone}
+	\includegraphics[width=0.05\linewidth]{logocopel}
+	\includegraphics[width=0.05\linewidth]{onereal}
+\end{center}
 %
 \vspace{1cm} % A bit of extra whitespace between the header and poster content
 
 %----------------------------------------------------------------------------------------
 
+\begin{center}\vspace{1cm} 
+		\label{figUmlModelSimulation}
+		\includegraphics[width=0.65\linewidth]{uml_model_simulation}
+		\captionof{figure}{\color{Green} Modelo resultante deste estudo escrito em UML}
+\end{center}\vspace{1cm} 
+
+
 \begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
 
 \color{Navy} % Navy color for the abstract
 
-\begin{abstract}
-Creating models to represent normative and non-normative relations between people is something of great academic interest. However, an unexplored situation today consists of models that generate indirect impacts on future objectives. This study presents a model to represent non-normative relationships where the consequences of a certain sanction are both immediate and long term.
-\end{abstract}
 
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
@@ -73,63 +82,11 @@ Creating models to represent normative and non-normative relations between peopl
 
 \color{SaddleBrown} % SaddleBrown color for the introduction
 
-\section*{Introdução}
-
-A comunidade acadêmica atual apresenta grande preocupação no que tange a criar modelos lógicos
-com propósito de representar o comportamento de organizações humanas. Neste aspecto, há uma 
-especial preocupação em modelar comportamentos normativos e suas respectivas violações.
-Estudos de comportamentos não normativos fazem uso de lógica deôntica para definir obrigações e 
-e permissões. Esses estudos modelam uma violação como o não cumprimento de uma determinada norma. 
-A violação de uma determinada norma implica uma sanção (penalidade sobre a qual o agente está sujeito)
-\cite{SimulationNonNormative},\cite{ControllingNonNormative}.
-
-Os modelos atuais apresentam representações adequadas para violações cujas sanções são imediatas a 
-violação. Alguns modelos levam em consideração realidades onde determinadas violações podem ou não 
-ocasionar sanções \cite{HowDoAgentMakeDecision}. Contudo, esses modelos não levam em consideração
-como uma determinada violação gera consequências em objetivos futuros. 
-		  
-Diversas atividades do cotidiano se enquadram na situação onde uma violação não gera consequências
-imediatas, contudo ocasionam problemas futuros. Para exemplificar é possível imaginar uma situação
-onde um técnico deve se deslocar do ponto A até o ponto B para realizar uma determinada manutenção
-corretiva no ponto B. Para isso, o técnico deve levar consigo a ferramenta f1 que está no ponto A. 
-Assim sendo, esse caso pode ser modelado por meio de uma abordagem normativa onde o técnico é
-obrigado a pegar a ferramenta f1 do ponto A, é obrigado a levar consigo do ponto A até o ponto B e
-é obrigado a usar a ferramenta no ponto B. Se o técnico esquecer de pegar a ferramenta no ponto A,
-ele comete uma violação. Contudo, nenhuma sanção imediata ocorre sobre ele. Não apenas isso, certas
-atividades não são impedidas de acontecer. Contudo, o técnico não conseguirá executar a obrigação de 
-usar a ferramenta no ponto B tendo em vista sua respectiva violação. Assim sendo, há interesse 
-científico em criar modelos para representar esse tipo de situação.
-
-%----------------------------------------------------------------------------------------
-%	OBJECTIVES
-%----------------------------------------------------------------------------------------
 
 \color{} % DarkSlateGray color for the rest of the content
 
-\section*{Objetivos Principais}
 
-O objetivo geral deste estudo implica propor um modelo para representar consequências indiretas em 
-etapas futuras que podem acontecer dada ocorrência de uma determinada violação. Esse modelo 
-será usado para descrever um estudo de caso onde eletricistas praticam manutenção em linha viva.
-Uma manutenção em linha viva é um tipo de manutenção que ocorre sobre equipamentos elétricos de alta-tensão 
-onde os mesmos se mantêm energizados. 
-
-Os objetivos específicos deste estudo são:
-
-\begin{enumerate}
-\item Verificar modelos e conceitos que podem ser utilizados no modelo proposto por esse estudo.
-\item Verificar adaptações de modelos para este estudo em específico.
-\item Criar conceitos e relações necessários ao propósito do modelo. 
-\item Especificar o estudo de caso no modelo proposto.
-\item Implementar o modelo em uma linguagem de programação.
-\end{enumerate}
-
-
-%----------------------------------------------------------------------------------------
-%	MATERIALS AND METHODS
-%----------------------------------------------------------------------------------------
-
-\section*{Metodologia}
+\section*{Descrição}
 
 A primeira etapa metodológica desta pesquisa consistiu em identificar modelos que podem ser
 usados para a finalidade deste estudo. Os pesquisadores identificaram um modelo em específico 
@@ -167,13 +124,6 @@ propriamente dita, o bloco \textit{SanctionCondition} apresenta as sanções que
 bloco \textit{MOISE+} consiste em uma representação similar ao modelo \textit{MOISE+} e o bloco \textit{SafetyEngineering}
 apresenta todos os possíveis riscos com base em critérios de engenharia de segurança.
 
-\begin{center}\vspace{1cm} 
-	\label{figUmlModelSimulation}
-	\includegraphics[width=1\linewidth]{uml_model_simulation}
-	\captionof{figure}{\color{Green} Modelo resultante deste estudo escrito em UML}
-\end{center}\vspace{1cm} 
-
-
 
 Inspirado no \textit{MOISE+}, este modelo define uma relação deôntica de obrigatoriedade com base na missão e no papel. 
 Contudo, também assume como verdade a seguinte relação. 
@@ -196,8 +146,8 @@ A relação \ref{lconsequence} significa que uma sanção implica em consequênc
 A relação \ref{lconsequence1} define que uma consequência de longo prazo faz com que a probabilidade de um objetivo dar certo
 mude.
 \begin{eqnarray}\label{lconsequence1}
-		  longConsequence(goal) \wedge hasProbability(goal,probability) \wedge exist(newProbability) \nonumber \\ 
-		  \to hasProbability(goal,newProbability)
+	longConsequence(goal) \wedge hasProbability(goal,probability) \wedge exist(newProbability) \nonumber \\ 
+	\to hasProbability(goal,newProbability)
 \end{eqnarray}
 A relação \ref{lconsequence2} define que a nova probabilidade de um objetivo dar certo tem que ser necessariamente menor
 do que a probabilidade antiga.
@@ -215,11 +165,11 @@ que o risco deve necessariamente pertencer aos possíveis riscos definidos por E
 \end{equation}
 A relação \ref{sanctionTrigger} define que a ocorrência de uma sanção dispara outra sanção.
 \begin{equation}\label{sanctionTrigger}
-		  trigger(name_{sanction-start},name_{sanction-fire}) \to happens(name_{sanction-start})
+	trigger(name_{sanction-start},name_{sanction-fire}) \to happens(name_{sanction-start})
 \end{equation}
 A relação \ref{sanctionTrigger02} define que uma sanção pode ocorrer por algum motivo, como esquecer ferramenta certa para determinado objetivo.
 \begin{equation}\label{sanctionTrigger02}
-		  trigger(name_{sanction-start},reason) \to happens(name_{sanction-start})
+	trigger(name_{sanction-start},reason) \to happens(name_{sanction-start})
 \end{equation}
 
 
